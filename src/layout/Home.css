@@ -1,0 +1,32 @@
+.item {
+    display: flex;
+    margin: 20px;
+}
+
+.item img{
+    align-self: flex-start;
+}
+
+.item-text{
+    /*padding: 40px 10px 10px 10px;*/
+    /*padding: 30px 10px;*/
+
+    /*
+    4 lados
+    padding: 10px;
+    */
+
+    padding-left: 10px;
+    margin: 0;
+
+    /*border: 1px solid red;*/
+    /*margin;*/
+}
+
+@media only screen and (min-width:992px){
+    #items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
